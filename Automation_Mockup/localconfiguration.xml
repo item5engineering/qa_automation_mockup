@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MySuite" parallel="tests" thread-count="20">
+<parameter name="browser" value="firefox" />
+<parameter name="version" value="39" />
+<parameter name="remoteOrLocal" value="local" />
+<parameter name="environment" value="stage" />
+<parameter name="remoteAddress" value="xx.xx.xxx.xxx" />
+</suite>

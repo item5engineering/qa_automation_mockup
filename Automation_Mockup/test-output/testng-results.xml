@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="33769" started-at="2015-07-20T22:05:10Z" finished-at="2015-07-20T22:05:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33769" started-at="2015-07-20T22:05:10Z" finished-at="2015-07-20T22:05:44Z">
+      <class name="testcases.CustomerFacingGoogleSomething">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CustomerFacingGoogleSomething@5f5cc764]" name="setup" is-config="true" duration-ms="6574" started-at="2015-07-20T17:05:10Z" finished-at="2015-07-20T17:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[stage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xx.xx.xxx.xxx]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="typeSomething()[pri:0, instance:testcases.CustomerFacingGoogleSomething@5f5cc764]" name="typeSomething" duration-ms="20360" started-at="2015-07-20T17:05:17Z" finished-at="2015-07-20T17:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeSomething -->
+        <test-method status="PASS" signature="clickSearch()[pri:0, instance:testcases.CustomerFacingGoogleSomething@5f5cc764]" name="clickSearch" duration-ms="6722" started-at="2015-07-20T17:05:37Z" depends-on-methods="testcases.CustomerFacingGoogleSomething.typeSomething" finished-at="2015-07-20T17:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method status="PASS" signature="callTeardown()[pri:0, instance:testcases.CustomerFacingGoogleSomething@5f5cc764]" name="callTeardown" is-config="true" duration-ms="89" started-at="2015-07-20T17:05:44Z" finished-at="2015-07-20T17:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callTeardown -->
+      </class> <!-- testcases.CustomerFacingGoogleSomething -->
+    </test> <!-- Default test -->
+  </suite> <!-- MySuite -->
+</testng-results>

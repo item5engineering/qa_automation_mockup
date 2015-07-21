@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MySuite" parallel="tests" thread-count="5" preserve-order="false">
+<parameter name="browser" value="firefox" />
+<parameter name="version" value="37.0.2"/>
+<parameter name="remoteOrLocal" value="sauce" />
+<parameter name="environment" value="stage" />
+<parameter name="remoteAddress" value="10.75.172.231" />
+<test name="1">
+    <classes>
+        <class name="testcases.CustomerFacingGoogleSomething"/>
+    </classes>
+</test>
+<test name="2">
+    <classes>
+        <class name="testcases.CustomerFacingGoogleSomething"/>
+    </classes>
+</test>
+<test name="3">
+    <classes>
+        <class name="testcases.CustomerFacingGoogleSomething"/>
+    </classes>
+</test>
+</suite>
